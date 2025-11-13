@@ -6,14 +6,14 @@ let
 in
 python3Packages.buildPythonApplication {
   pname = "cutekit";
-  version = "0.8.6";
+  version = "0.10.2";
   pyproject = true;
 
   src = pkgs.fetchFromGitHub {
     owner = "cute-engineering";
     repo = "cutekit";
-    rev = "0e49eb181367f427d9084df43b8a713a60a3bf4e";
-    sha256 = "sha256-0nWe9pqYW9P7nqh7dnwrFwFW3/nhDz4RopD18HiR4ww=";
+    rev = "790d9443aa2a50e3d0d9afe815a6fe731644f0cc";
+    sha256 = "sha256-Z+SFQ7ZiXtzAmmYAbeTdBKXwc7vgwDEvjcrH92DAgEk=";
   };
 
   dependencies = with python3Packages; [
